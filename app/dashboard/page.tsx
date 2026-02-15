@@ -153,7 +153,7 @@ export default function DashboardPage() {
       
       // Simulate download - in production, this would be a real download link
       const link = document.createElement("a");
-      link.href = "data:text/plain,This is a placeholder for the vulnerable machine image.";
+      link.href = process.env.NEXT_DOWNLOAD_LINK || '';
       link.download = "vulnerable-machine.iso";
       link.click();
     } catch (err) {
