@@ -55,7 +55,9 @@ VERIFY_ADMIN.sql (optional)
 
 5️⃣ Run locally
 npm run dev
+
 git clone https://github.com/YOUR_USERNAME/ctf-platform.git
+
 cd ctf-platform
 
 👨‍💻 Author
